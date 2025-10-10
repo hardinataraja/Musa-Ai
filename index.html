@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musa AI</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header id="chatHeader" class="hidden">
+    <div class="header-left">
+      <img src="https://i.postimg.cc/D0gVyN9f/icon-512.jpg" alt="Desta AI" class="profile-pic">
+      <div>
+        <h1 class="app-title">Musa AI</h1>
+        <span class="status">online</span>
+      </div>
+    </div>
+    <div class="menu">
+      <button id="menuBtn">⋮</button>
+      <div id="dropdownMenu" class="dropdown hidden">
+        <button id="newChat">Chat Baru</button>
+        
+        <button id="changeToken">Token</button>
+        <button id="clearChat">Hapus Semua Chat</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="welcomeScreen">
+    <img src="https://i.postimg.cc/D0gVyN9f/icon-512.jpg" alt="Desta AI" class="welcome-pic" />
+    <h1>👋 Halo! Aku <span>Musa AI</span></h1>
+    <p>Asisten Tampan dan Cerdas siap menemanimu ngobrol 💬</p>
+    <div class="start-chat">
+      <input type="text" id="firstMessage" placeholder="Ketik pesan pertamamu..." />
+      <button id="startChatBtn">Kirim</button>
+    </div>
+  </main>
+
+  <main id="chatContainer" class="hidden">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Tulis pesan..." />
+      <button id="sendBtn">Kirim</button>
+    </div>
+  </main>
+
+  <footer>
+    Made with — Musa -AI
+  </footer>
+</body>
+</html>

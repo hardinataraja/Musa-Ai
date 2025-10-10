@@ -1,0 +1,23 @@
+{
+  "name": "Musa AI",
+  "short_name": "MusaAI",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f8f8",
+  "theme_color": "#7e57c2",
+  "description": "Musa AI — Asisten Tampan dan Cerdas siap menemanimu ngobrol 💬",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
